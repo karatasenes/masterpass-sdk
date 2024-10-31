@@ -15,6 +15,7 @@ import {
     SetAddressFunction,
     SetClientIdFunction,
     ValidateTransactionFunction,
+    rsaEncrypt
 } from './Types'
 
 export default class MasterPass {
