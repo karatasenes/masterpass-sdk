@@ -49,6 +49,10 @@ export type MFSCheckMasterPassFunction = (
     callback: CallbackFunction<CheckMasterPassResponse>
 ) => void
 
+export type rsaEncrypt = (
+    data: string
+) => string
+
 export type CheckMasterPassFunction = (
     data: CheckMasterPassData
 ) => Promise<CheckMasterPassResponse>
